@@ -24,6 +24,7 @@ connection.query('SELECT * FROM test',(error,results)=>{
       console.log(results[0].text)
   })
 //===============================================
+//      res.send('helloえくすぷれす');
   })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
